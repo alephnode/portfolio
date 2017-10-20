@@ -1,0 +1,91 @@
+.App, body, html {
+  margin: 0px;
+  padding: 0px
+}
+
+.App-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.App-background {
+  background: url('./assets/plantlife.jpg');
+  height: 100vh;
+  width: 500px;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border: 5px solid #B3D5F9;
+}
+
+.contact, .promotion {
+  color:#D4939E;
+  font-family: 'courier', monospace;
+}
+
+body {
+  background: #FFFAF4
+}
+
+.App-info {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.App-title {
+  text-decoration: line-through;
+  text-decoration-color: #FFFAF4;
+  font-weight: 300;
+  font-size: 1.2em;
+  font-family: 'courier', monospace;
+  color: #888585;
+  letter-spacing: 10px
+}
+
+.App-title span {
+  font-weight: 500;
+  color: #D4939E;
+  letter-spacing: 5px
+}
+
+.App-intro {
+  font-size: large;
+  /*font-family: 'Palatino', serif;*/
+  font-family: 'Helvetica', monospace;
+  color: white;
+  letter-spacing: 5px;
+  display: inline;
+  background: #B3D5F9
+}
+
+.App hr {
+  border: 1px solid white;
+}
+
+.App .first-hr {
+  margin-top: 100px
+}
+
+.App .second-hr {
+  width: 60%;
+  margin-left: 0px
+}
+
+.App .last-hr {
+  width: 50%;
+  margin-left: 0px
+}
+
+.mission {
+  font-family: 'Helvetica', monospace;
+  letter-spacing: 5px;
+  color: #888585;
+  font-size: 10px
+}
+
+.App-intro-lower {
+  margin-top: 150px
+}
